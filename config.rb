@@ -1,5 +1,5 @@
 # Unique header generation
-require './lib/unique_head.rb'
+require 'lib/unique_head.rb'
 
 # Markdown
 set :markdown_engine, :redcarpet
@@ -22,7 +22,7 @@ set :fonts_dir, 'fonts'
 # Activate the syntax highlighter
 activate :syntax
 ready do
-  require './lib/multilang.rb'
+  require 'lib/multilang.rb'
 end
 
 activate :sprockets
@@ -53,5 +53,5 @@ end
 set :port, 4567
 
 helpers do
-  require './lib/toc_data.rb'
+  require 'lib/toc_data.rb'
 end
