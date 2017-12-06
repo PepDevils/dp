@@ -2,13 +2,15 @@
 title: API Reference
 
 language_tabs: # must be one of https://git.io/vQNgJ
-  - shell
-  - ruby
+  - java
+  - swift
+  - kotlin
   - python
+  - php
   - javascript
 
 toc_footers:
-  - <a href='#'>Sign Up for a Developer Key</a>
+  - <a href='https://pepdevils.github.io'>Voltar ao Início</a>
   - <a href='https://github.com/lord/slate'>Documentation Powered by Slate</a>
 
 includes:
@@ -19,11 +21,13 @@ search: true
 
 # Introduction
 
-Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.
+Bem vindo ao repositorio de codigo, para padrões de projeto.
 
-We have language bindings in Shell, Ruby, and Python! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.
+Aqui estão organizados os padroes de projeto nas linguagens que mais utilizo, como lembrança de todo o estudo feito,
+E para que estas estejam sempre á mão para serem copiadas e usadas em projetos de uma maneira facil e eficiente.
 
-This example API documentation page was created with [Slate](https://github.com/lord/slate). Feel free to edit it and use it as a base for your own API's documentation.
+
+O tema e estrutura do site foi criada por [Slate](https://github.com/lord/slate).
 
 # Authentication
 
@@ -236,4 +240,3 @@ This endpoint deletes a specific kitten.
 Parameter | Description
 --------- | -----------
 ID | The ID of the kitten to delete
-
