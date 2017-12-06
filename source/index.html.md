@@ -13,13 +13,13 @@ toc_footers:
   - <a href='https://pepdevils.github.io'>Voltar ao Início</a>
   - <a href='https://github.com/lord/slate'>Documentation Powered by Slate</a>
 
-includes:
+<!-- includes:
   - errors
 
-search: true
+search: true -->
 ---
 
-# Introduction
+# Introdução
 
 Bem vindo ao repositorio de codigo, para padrões de projeto.
 
@@ -29,7 +29,7 @@ E para que estas estejam sempre á mão para serem copiadas e usadas em projetos
 
 O tema e estrutura do site foi criada por [Slate](https://github.com/lord/slate).
 
-# Authentication
+# Padrões de Criação
 
 > To authorize, use this code:
 
